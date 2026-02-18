@@ -1,105 +1,92 @@
 /**
  * @file: profile.config.ts
- * @author: Engineering Portfolio
- * @summary: A high-performance full-stack engineer.
+ * @author: Frontend Developer (React)
+ * @summary: Frontend-focused developer transitioning into full stack.
  */
 
 // --------------------------------------------------
-// 1. CORE DEPENDENCIES & SKILLS
+// 1. CORE SKILLS
 // --------------------------------------------------
 
 const TECH_STACK = {
   frontend: [
-    "React.js",    // 100%
-    "Next.js",     // 95%
-    "TailwindCSS", // 90%
-    "Three.js",    // 70%
+    "React.js",        // Strong
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "TailwindCSS"
   ],
   backend: [
-    "Node.js",     // 90%
-    "PostgreSQL",  // 85%
-    "Redis",       // 75%
-    "Docker",      // 80%
+    "Node.js (Learning)",
+    "Express.js (Learning)",
+    "MongoDB (Learning)"
   ],
-  tools: ["AWS", "Git", "Figma", "Linux"]
+  tools: [
+    "Git & GitHub",
+    "VS Code",
+    "Vercel (Deployment)"
+  ]
 };
 
 // --------------------------------------------------
-// 2. EXPERIENCE LOG (Reverse Chronological)
+// 2. PROJECT EXPERIENCE
 // --------------------------------------------------
 
-class ProfessionalHistory {
-  
-  /** * CURRENT ROLE
-   * @period 2023 - Present 
+class ProjectExperience {
+
+  /** 
+   * macOS Portfolio (React)
+   * Status: Deployed
    */
-  public async TechFlow_Systems(): Promise<Impact> {
-    const role = "Senior Full-Stack Engineer";
-    
-    // Key Achievements
-    const optimized = await api.optimize({ strategy: "Redis Caching" });
-    const latencyReduction = "40%";
-    
-    const leadership = this.mentor(["Jr. Dev 1", "Jr. Dev 2", "Jr. Dev 3"]);
-    const architecture = "Monolith -> Microservices Migration";
-    
-    return { role, optimized, architecture, leadership };
+  public macOS_Portfolio(): string {
+    return `
+    - Interactive macOS-inspired UI
+    - Built with React
+    - Features:
+        • CLI terminal simulation
+        • PDF viewer
+        • Notes app
+        • Project showcase
+    - Deployed on Vercel
+    `;
   }
 
-  /** * PREVIOUS ROLE
-   * @period 2021 - 2023
+  /**
+   * Current Learning Project
    */
-  public PixelPerfect_Studios(): void {
-    this.role = "Frontend Developer";
-    this.focus = "High-Fidelity Animations";
-    
-    // Implemented GSAP scroll-triggers for 15+ clients
-    // Improved Lighthouse Performance Scores: 65 -> 98
+  public fullStackJourney(): string {
+    return `
+    - Building full stack apps
+    - Connecting React frontend with Express API
+    - Learning REST APIs & MongoDB integration
+    `;
   }
 }
 
 // --------------------------------------------------
-// 3. COMPETITIVE ACHIEVEMENTS
+// 3. CURRENT MISSION
 // --------------------------------------------------
 
-interface HackathonWin {
-  rank: number;
-  event: string;
-  project: string;
-}
+const currentFocus = {
+  role: "Frontend / Full Stack Intern",
+  goal: "Build production-ready full stack projects",
+  availability: "Open to Internship Opportunities",
+  timeline: "3 Month Intensive Growth Phase"
+};
 
-const trophyCabinet: HackathonWin[] = [
-  {
-    rank: 1,
-    event: "Global AI Hackathon 2024",
-    project: "EcoVision (Computer Vision Waste Segregation)",
-    // Prize: $5,000
-  },
-  {
-    rank: 500, // Top 500 Global
-    event: "Google Code Jam 2023",
-    project: "Algorithm Optimization (Dynamic Programming)",
-  }
-];
-
-// --------------------------------------------------
-// 4. ACADEMIC BACKGROUND
-// --------------------------------------------------
-
-const education = new Map<string, string>([
-  ["Stanford University", "MS Computer Science (3.9 GPA)"],
-  ["MIT World Peace Univ", "B.Tech Information Tech (8.8 CGPA)"]
-]);
-
-export default new ProfessionalHistory();
+export default new ProjectExperience();
 
 
-```bash
 # TERMINAL OUTPUT
 # ---------------------------------------
 $ user --status
-> Status: Open to Opportunities
-> Location: Global / Remote
-> Loading Assets... [||||||||||] 100%
-> Ready.
-```
+> Role: Frontend Developer (React)
+> Transition: Full Stack in Progress
+> Deployment: Vercel
+> Focus: Internship & Growth
+> Location: Open to Remote
+> Status: Building Everyday 🚀
+
+
+
+
